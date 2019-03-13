@@ -614,42 +614,57 @@ input {
     .box {
         min-width: 250px;
     }
-    .pysk-img {
+    /* .pysk img {
         width: 150px;
         height: 150px;
-    }
+    } */
      .pysk {
          /* position: relative; */
-         top: 50px;
+         top: 30px;
          right: 0px;
+        
      }
-
-     .pysk-img {
+ 
+        .pysk img {
          margin-left: auto;
          margin-right: auto;
+         margin-top: auto;
          display: block;
-         width: 150px;
-         height: 150px;
+         width: 200px;
+         height: 200px;
+         
      }
 
      .hero {
          flex-wrap: wrap;
      }
-
+/* 
      .box {
-         min-width: 480px;
-     }
+         min-width: 480px;} */
+
 
      .about-left {
 
          min-width: 100px;
+         font-size: 15px;
+         padding-left: 0px;
      }
 
      .about-right {
-         min-width: 400px;
+         min-width: 200px;
          border-top: solid 1px #2C88CB;
          border-left: 0px;
          padding-top: 20px;
+     }
+     .cta-container h1 {
+         margin: 5px;
+         font-size: 18px;
+         line-height: 1.5;
+     }
+
+     .cta-container a {
+         font-size: 15px;
+         margin-bottom: 10px;
      }
 
      .about-content {
@@ -718,6 +733,16 @@ input {
 
      .ctabttn a {
          margin: 0px;
+     }
+     .form p {
+         /* margin-left: 10px; */
+         text-align: center;
+         font-size: 24px;
+     }
+     .hello {
+         margin-left: auto;
+         margin-right: auto;
+         text-align: center;
      }
 
 }
